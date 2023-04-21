@@ -1,0 +1,99 @@
+body{
+    background-color:dimgray;     
+    height: 1200px;
+
+
+}
+
+.box1{
+    background-color: grey;
+    height: 200px;
+    width: 90%;
+    color:darkgoldenrod;
+    font-size: 30px;
+    float:left;
+    padding-left: 5%;
+    padding-top: 10px;  /*this adds padding*/
+    padding-right: 5%;
+}
+
+.box2{
+    background-color: grey;
+    height: 1000px;
+    width: 45%;               /*50% is half a page*/
+    color:black;
+    font-size: 30px;
+    float:left;
+    padding-left: 5%;
+    padding-top: 0px;  /*this adds padding*/
+    
+    
+}
+
+.box3{
+    background-color: grey;
+    height: 1000px;
+    width: 45%;
+    color: black;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 0px; 
+    float: right;            /*float left moves the text left*/
+    
+
+}
+
+.box4{
+    background-color: grey;
+    height: 200px;
+    width: 90%;
+    color: black;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 10px; 
+    padding-right: 5%;
+    padding-bottom: 10px;
+    float: left;            /*float left moves the text left*/
+    
+
+}
+
+nav{
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 2%;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-left: 60px; /*moves text to the left*/
+}
+
+li a:hover{                 /*Hover over a link and make it change colour*/
+    color:navy;
+
+}
+
+
+
+
+
+
+
+
